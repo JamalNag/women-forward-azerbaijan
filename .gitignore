@@ -1,0 +1,5 @@
+# Local preview config (points at a temporary path on this computer)
+.claude/
+
+# Brag video project and renders (kept local; not part of the website)
+brag-output/
