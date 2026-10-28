@@ -59,7 +59,7 @@
 <body>
 
 <!-- Shared ornament, drawn from an Azerbaijani namazlıq (prayer rug) of the Ganja–Gazakh school:
-     the eight-pointed rosette border, the cross-star guard stripes, and the diagonal-banded field. -->
+     the eight-pointed rosette border and the cross-star guard stripes. -->
 <svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
   <defs>
     <!-- Eight-pointed rosette; its outer colour comes from the <use> element's `color` -->
@@ -86,13 +86,6 @@
       <rect class="r-ivory" x="5" y="2" width="2" height="6"/>
       <rect class="r-ivory" x="3" y="4" width="6" height="2"/>
       <rect class="r-red" x="5" y="4" width="2" height="2"/>
-    </pattern>
-    <!-- Field: diagonal bands, used faintly behind placeholders -->
-    <pattern id="rug-field" width="36" height="36" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
-      <rect class="r-ivory" width="36" height="36"/>
-      <rect class="r-red" x="0" width="6" height="36"/>
-      <rect class="r-green" x="12" width="6" height="36"/>
-      <rect class="r-navy" x="24" width="6" height="36"/>
     </pattern>
   </defs>
 </svg>
@@ -148,7 +141,7 @@
 
 <!-- ABOUT -->
 <section class="section" id="about">
-  <div class="wrap two">
+  <div class="wrap">
     <div class="prose">
       <p class="eyebrow" data-i18n="about.eyebrow">The problem</p>
       <h2 data-i18n="about.title">Skills were there. The path to income was not.</h2>
@@ -163,14 +156,6 @@
       </ul>
       <p data-i18n="about.p2">The aim was to build and test a regional model rather than run one more general entrepreneurship course. Participants were treated as partners: their experience, constraints and feedback shaped how the programme changed over time.</p>
     </div>
-    <!-- MAP: replace the contents of .slot with <img src="assets/img/map.svg" alt="..."> when the map is ready -->
-    <figure class="slot map-slot">
-      <svg class="slot-art" aria-hidden="true"><rect width="100%" height="100%" fill="url(#rug-field)"/></svg>
-      <figcaption class="slot-text">
-        <span class="slot-title" data-i18n="map.title">Map of the 18 communities</span>
-        <span class="slot-note" data-i18n="map.note">Map to be added</span>
-      </figcaption>
-    </figure>
   </div>
 </section>
 
@@ -389,27 +374,14 @@
     <div class="sec-head">
       <p class="eyebrow" data-i18n="cat.eyebrow">Project catalogue</p>
       <h2 data-i18n="cat.title">More than 1,150 documented offerings</h2>
-      <p data-i18n="cat.p">Participants documented their products and services with clear descriptions and visual presentation. The shared project catalogue is not yet published online; a selection will appear here.</p>
+      <p data-i18n="cat.p">Participants documented their products and services with clear descriptions and visual presentation. The shared project catalogue is not published online. The offerings fall into four groups:</p>
     </div>
-    <!-- PHOTOS: replace each .slot with <img src="assets/img/....jpg" alt="..."> -->
-    <div class="cat-grid">
-      <figure class="tile">
-        <div class="slot photo"><svg class="slot-art" aria-hidden="true"><rect width="100%" height="100%" fill="url(#rug-field)"/></svg><span class="slot-note" data-i18n="cat.ph">Photo to be added</span></div>
-        <figcaption data-i18n="cat.c1">Handicrafts and handmade goods</figcaption>
-      </figure>
-      <figure class="tile">
-        <div class="slot photo"><svg class="slot-art" aria-hidden="true"><rect width="100%" height="100%" fill="url(#rug-field)"/></svg><span class="slot-note" data-i18n="cat.ph">Photo to be added</span></div>
-        <figcaption data-i18n="cat.c2">Agricultural and food products</figcaption>
-      </figure>
-      <figure class="tile">
-        <div class="slot photo"><svg class="slot-art" aria-hidden="true"><rect width="100%" height="100%" fill="url(#rug-field)"/></svg><span class="slot-note" data-i18n="cat.ph">Photo to be added</span></div>
-        <figcaption data-i18n="cat.c3">Services</figcaption>
-      </figure>
-      <figure class="tile">
-        <div class="slot photo"><svg class="slot-art" aria-hidden="true"><rect width="100%" height="100%" fill="url(#rug-field)"/></svg><span class="slot-note" data-i18n="cat.ph">Photo to be added</span></div>
-        <figcaption data-i18n="cat.c4">Professional work</figcaption>
-      </figure>
-    </div>
+    <ul class="ticks cols">
+      <li data-i18n="cat.c1">Handicrafts and handmade goods</li>
+      <li data-i18n="cat.c2">Agricultural and food products</li>
+      <li data-i18n="cat.c3">Services</li>
+      <li data-i18n="cat.c4">Professional work</li>
+    </ul>
   </div>
 </section>
 
@@ -550,7 +522,7 @@
 <footer class="site-footer">
   <div class="wrap footer-row">
     <p>© 2026 Women Forward Azerbaijan</p>
-    <p class="muted" data-i18n="ft.orn">The border ornament is drawn from an Azerbaijani namazlıq (prayer rug) of the Ganja–Gazakh school: its rosette border, guard stripes and diagonal-banded field. Azerbaijani carpet weaving was inscribed on UNESCO's list of Intangible Cultural Heritage in 2010.</p>
+    <p class="muted" data-i18n="ft.orn">The border ornament is drawn from an Azerbaijani namazlıq (prayer rug) of the Ganja–Gazakh school: its rosette border and guard stripes. Azerbaijani carpet weaving was inscribed on UNESCO's list of Intangible Cultural Heritage in 2010.</p>
     <p class="ft-links"><span data-i18n="ft.also">Also:</span>
       <a href="https://threeyearsatmehriban.com/" data-i18n="ft.meh">Three Years at Mehriban →</a>
       <a href="https://amorinicampaign.com/" data-i18n="ft.amo">Feminist Slogans, Worn by a Young Man →</a>
