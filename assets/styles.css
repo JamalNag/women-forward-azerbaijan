@@ -513,6 +513,11 @@ h4 { font: 700 1.0625rem/1.3 var(--body); }
 .site-footer { padding-block: 28px 36px; }
 .footer-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 32px; font-size: .88rem; }
 .footer-row .muted { max-width: 60ch; }
+/* Links to the other project sites */
+.ft-links { display: grid; gap: 4px; align-content: start; }
+.ft-links span { color: var(--muted); }
+.ft-links a { font-weight: 600; text-decoration: none; }
+.ft-links a:hover { text-decoration: underline; }
 
 /* ---------- Hover (mouse only, so taps don't leave sticky states) ---------- */
 @media (hover: hover) and (pointer: fine) {

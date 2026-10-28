@@ -226,7 +226,11 @@ window.WFA_I18N = {
     "org.addrL": "Ünvan",
     "org.addr": "Caspian Plaza, 2-ci bina, 5-ci mərtəbə, Cəfər Cabbarlı küç. 44, Bakı",
     "org.webL": "Veb-sayt",
-    "ft.orn": "Haşiyə ornamenti Gəncə–Qazax xalça məktəbinə aid Azərbaycan namazlıq xalçasından götürülüb: onun rozetli haşiyəsi, kənar zolaqları və diaqonal zolaqlı ara sahəsi. Azərbaycan xalçaçılıq sənəti 2010-cu ildə UNESCO-nun Qeyri-maddi Mədəni İrs siyahısına daxil edilib."
+    "ft.orn": "Haşiyə ornamenti Gəncə–Qazax xalça məktəbinə aid Azərbaycan namazlıq xalçasından götürülüb: onun rozetli haşiyəsi, kənar zolaqları və diaqonal zolaqlı ara sahəsi. Azərbaycan xalçaçılıq sənəti 2010-cu ildə UNESCO-nun Qeyri-maddi Mədəni İrs siyahısına daxil edilib.",
+    "ft.also": "Həmçinin:",
+    "ft.meh": "Mehribanda üç il →",
+    "ft.amo": "Gənc oğlanın geyindiyi feminist şüarlar →",
+    "ft.ft5": "Müdriklik haqqında beş nağıl →"
   },
 
   ru: {
@@ -446,6 +450,10 @@ window.WFA_I18N = {
     "org.addrL": "Адрес",
     "org.addr": "Caspian Plaza, корпус 2, 5-й этаж, ул. Джафара Джаббарлы, 44, Баку",
     "org.webL": "Сайт",
-    "ft.orn": "Орнамент каймы взят с азербайджанского молитвенного коврика (намазлыга) гянджа-казахской школы: его кайма с розетками, бордюрные полосы и поле с диагональными полосами. Искусство азербайджанского ковроткачества внесено в список нематериального культурного наследия ЮНЕСКО в 2010 году."
+    "ft.orn": "Орнамент каймы взят с азербайджанского молитвенного коврика (намазлыга) гянджа-казахской школы: его кайма с розетками, бордюрные полосы и поле с диагональными полосами. Искусство азербайджанского ковроткачества внесено в список нематериального культурного наследия ЮНЕСКО в 2010 году.",
+    "ft.also": "Также:",
+    "ft.meh": "Три года в «Мехрибан» →",
+    "ft.amo": "Феминистские лозунги на молодом мужчине →",
+    "ft.ft5": "Пять сказок о мудрости →"
   }
 };
